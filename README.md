@@ -11,8 +11,8 @@ https://kieai.redpandaai.co/api/file-stream-upload
 https://kie.ai/api-key
 
 **Body**
-form-data
-file - path to file
+form-data;
+file - path to file; 
 uploadPath - images
 
 
