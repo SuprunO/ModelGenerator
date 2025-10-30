@@ -1,0 +1,15 @@
+// https://api.kie.ai/api/v1/playground/createTask
+
+{
+    "model": "bytedance/seedream-v4-edit",
+    "input": {
+     "prompt": "{{$json["prompt"]}}",
+      "image_urls": [
+        "https://tempfile.redpandaai.co/kieai/264826/images/1761813718939-vuuejq4m6c.png"
+      ],
+      "image_size": "portrait_3_2",
+      "image_resolution": "4K",
+      "max_images": 1,
+      "seed": 12345
+    }
+  }

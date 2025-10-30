@@ -1,0 +1,29 @@
+
+
+//https://api.openai.com/v1/chat/completions
+{
+    "model": "gpt-3.5-turbo",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You are a professional fashion copywriter creating viral 300-character captions for fashion editorials."
+      },
+      {
+        "role": "user",
+    "content": "{{$node["Scene Generator"].json["prompt"]}}"
+  
+      },
+      {
+        "role": "user",
+        "content": "Write a viral caption (300 characters max) with 4 creative fashion hashtags."
+      }
+    ],
+    "max_tokens": 150,
+    "temperature": 0.9
+  }
+
+  //Headers:
+  {
+    "Authorization": "Bearer xxxxx",
+    "Content-Type": "application/json"
+  }
