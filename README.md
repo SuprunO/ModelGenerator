@@ -10,7 +10,7 @@ https://kieai.redpandaai.co/api/file-stream-upload
 **Token Bearer:**
 https://kie.ai/api-key
 
-**Body**
+**Body:**
 form-data;
 file - path to file; 
 uploadPath - images
